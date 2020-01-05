@@ -1,0 +1,24 @@
+POST https://bcgv8ocsd0.execute-api.us-east-1.amazonaws.com/dev/v1/kitten
+
+{
+  "name": "Piglet",
+  "age": 3
+}
+
+###
+GET https://bcgv8ocsd0.execute-api.us-east-1.amazonaws.com/dev/v1/kitten
+
+###
+GET https://bcgv8ocsd0.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/Fluffykins
+
+###
+PUT https://bcgv8ocsd0.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/Fluffykins
+
+{
+  "age": 6
+}
+
+###
+DELETE https://bcgv8ocsd0.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/Piglet
+
+###

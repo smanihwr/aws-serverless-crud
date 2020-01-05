@@ -1,0 +1,10 @@
+{
+  "name": "thekittens-crud",
+  "version": "1.0.0",
+  "dependencies": {
+    "aws-sdk": "^2.597.0"
+  },
+  "devDependencies": {
+    "serverless-pseudo-parameters": "^2.5.0"
+  }
+}
